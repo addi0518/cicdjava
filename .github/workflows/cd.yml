@@ -63,8 +63,8 @@ jobs:
         mysql user: admin
         mysql password: asdf1234
 
-    #테스트를 위한 test properties 설정
-    - name: Make application-test.properties
+    #테스트를 위한 properties 설정
+    - name: Make application.properties
       run: |
         cd ./src/main/resources
         touch ./application.properties
