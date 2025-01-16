@@ -61,7 +61,7 @@ jobs:
         container port: 3306
         mysql database: jdbc:mysql://database-1.c9s0e44yua52.ap-northeast-2.rds.amazonaws.com:3306/database-1
         mysql user: admin
-        mysql password: 1234
+        mysql password: asdf1234
 
     #테스트를 위한 test properties 설정
     - name: Make application-test.properties
