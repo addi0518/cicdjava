@@ -1,4 +1,4 @@
-# Workflow 이름은 구별이 가능할 정도로 자유롭게 적어주어도 된다. 
+# Workflow 이름은 구별이 가능할 정도로 자유롭게 적어주어도 된다.
 # 필수 옵션은 아니다.
 name: Java CI with Gradle
 
