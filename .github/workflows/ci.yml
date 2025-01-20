@@ -65,7 +65,7 @@ jobs:
 
     #테스트를 위한 properties 설정
     - name: Make application.properties
-      run:
+      run: |
         cd ./src/main/resources
         touch ./application.properties
         echo "${{ secrets.PROPERTIES_TEST }}" > ./application.properties
